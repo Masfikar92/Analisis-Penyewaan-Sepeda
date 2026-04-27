@@ -9,5 +9,5 @@
 2.Buka terminal caranya:<br>
 view -> terminal<br>
 
-4.Jalankan Kode Berikut
+3.Jalankan Kode Berikut
 <code>streamlit run Dashboard.py
