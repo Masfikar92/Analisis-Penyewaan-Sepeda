@@ -61,7 +61,7 @@ if df_filtered.empty:
     st.warning("Tidak ada data untuk filter yang dipilih. Silakan ubah filter.")
     st.stop()
 
-st.subheader("Pertanyaan 1: Penyewaan Sepeda per Bulan (2011-2012)")
+st.subheader("Penyewaan Sepeda per Bulan (2011-2012)")
 st.caption("Untuk merencanakan strategi promosi pada bulan dengan penyewaan rendah")
 
 order_bulan = ['Januari','Februari','Maret','April','Mei','Juni',
@@ -95,7 +95,7 @@ if not monthly_clean.empty:
 
 st.divider()
 
-st.subheader("Pertanyaan 2: Pengaruh Suhu terhadap Penyewaan (2011–2012)")
+st.subheader("Pengaruh Suhu terhadap Penyewaan (2011-2012)")
 st.caption("Untuk menentukan strategi promosi dan operasional berdasarkan kondisi cuaca")
 
 fig2, ax2 = plt.subplots(figsize=(9, 5))
@@ -244,7 +244,7 @@ with tab2:
             st.metric(label, f"{int(segment_counts.get(seg, 0))} hari")
 
     st.info(
-        "💡 **Insight:** Segmen **Sangat Ramai** terkonsentrasi di musim Panas & Gugur — "
+        "**Insight:** Segmen **Sangat Ramai** terkonsentrasi di musim Panas & Gugur — "
         "periode kritis untuk kesiapan armada. Segmen **Sepi** paling banyak di musim Dingin & Semi — "
         "waktu ideal untuk perawatan armada dan kampanye promosi."
     )
