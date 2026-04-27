@@ -10,4 +10,4 @@
 view -> terminal<br>
 
 Jalankan Kode Berikut
-<code>streamlit run Dashboard.py# Analisis-Penyewaan-Sepeda
+<code>streamlit run Dashboard.py
