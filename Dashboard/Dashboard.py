@@ -53,7 +53,7 @@ musim_filter = st.sidebar.multiselect(
 )
 
 df_filtered = df[
-    df['yr_label'].isin(tahun_filter) 
+    df['yr_label'].isin(tahun_filter) &
     df['season'].isin(musim_filter)
 ]
 
